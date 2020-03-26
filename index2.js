@@ -49,7 +49,7 @@ alert ((g+10)+(h+10)+(i+10))
 let side1 = Number(prompt())
 let side2 = Number(prompt())
 let side3 = Number(prompt())
-// console.log ((k+l>j) && (j+l>k) && (j+k>l))   (Погуглил, и нашел еще одно решение)
+// console.log ((side2 + side3 > side1) && (side1 + side3 > side2) && (side1 + side2 > side3)) (Погуглил, и нашел еще одно решение)
 console.log ((side2 + side3 > side1) == (side1 + side3 > side2) == (side1 + side2 > side3))
 
 let m = Number(prompt())
